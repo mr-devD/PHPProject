@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/projekat1",
+  "description": "First PHP project",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "dejan",
+      "email": "dejan.dervenic@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.8",
+    "ext-pdo": "*",
+    "ext-fileinfo": "*"
+  }
+}
