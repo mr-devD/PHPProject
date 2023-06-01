@@ -242,8 +242,8 @@ class User
 
         $mail->SMTPAuth = true;
         $mail->Username = 'apikey';
-        $mail->Password = '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';
-        $mail->setFrom('dejan.dervenic@gmail.com', 'Dejan');
+        $mail->Password = 'Your_password';
+        $mail->setFrom('email@email.com', 'Name');
 
         return $mail;
 
