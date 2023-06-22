@@ -9,6 +9,7 @@ Executant - can see tasks he was assigned to, write comments underneath task, he
 The main goal is making tasks. And working with them.<br>
 
 You can see the whole project text inside of "tekstzadatka" file. It is on Serbian and English(Translated by google translate).<br>
+Database is located in SQL DB Folder, just import projekat11.sql to PHPMYADMIN<br>
 
 
 REGISTRATION PAGE:<br>
