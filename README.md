@@ -45,6 +45,10 @@ First part of page is Infromation of selected task:
 And there is a list of all executants assigned to that task, user can click "DONE" button next to his name which will make his name green, which means he finished his part.
 ![image](https://github.com/mr-devD/PHPProject/assets/93098789/605a7232-f011-49ad-a11f-9fd491a2378c)
 
+If user is ADMIN OR MANAGER he will have additional buttons: COMPLETE, CANCEL, EDIT, DELETE
+![image](https://github.com/mr-devD/PHPProject/assets/93098789/e42d7582-4081-4fa9-8e59-22e805adeacc)
+
+
 Second part is Comments part where user can leave a comment about task. and he also can delete his comments
 ![image](https://github.com/mr-devD/PHPProject/assets/93098789/ef1d8c58-6292-485c-8366-736b38101451)
 
