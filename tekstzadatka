@@ -78,7 +78,84 @@ o Постојећим корисницима може променити и т�
 Дозвољено је коришћење свих front-end библиотека и фрејмворка укључујући jQuery,
 Angular, Vue.js, React…
 
-1.197.395
-1.255.
+--------------ENGLISH--------------
+
+Using PHP, MySQL and AJAX, create a web application to deploy and
+realization of work tasks of employees.
+There are three types of users in the system:
+ Administrator
+ Head of Department i
+ Executor
+All users should be allowed to login to the system. The user has the option to
+after login, continue working with the rest of the system.
+In case the user enters the wrong login information, show him
+appropriate message. In addition to logging into the system, the user on the home page
+password change and registration should be enabled. I can do it independently
+can be registered by executors, and administrators and department heads
+created exclusively by the administrator.
+During registration, it is necessary to enter the following information:
+ Username
+ Password
+ Repeated password
+ Name and surname
+ Phone number (optional)  Email
+ Date of birth (optional)
+After registration, send the activation link to the user by e-mail
+the user clicks, he gets the option to log into the system. In case the user
+who registered but did not click on the confirmation link, try to log in to
+system, he is shown a message that an activation link has been sent to his email. Too,
+create an option to re-generate a new link to the user at the click of a button
+resends the link to the email from which he registered.
+Username and email must be unique.
+When changing the password, ask the user to enter the email with which
+registered. Whether he enters an already existing or non-existent email, show him
+message that he will receive an email with a link to reset the password if he entered it
+valid email address. The user is sent a link that is valid for half an hour from
+moment of creating the request, which when the user clicks, opens a form with two
+password entry fields: new password and repeated password.
+After logging in, the appropriate part of the application is displayed depending on the type
+user.
+Head of department
+The head of the department has the ability to:
+ Creates a new task group / modifies and deletes existing task groups
+ Creates a new task in a group / changes and deletes existing tasks
+o The assignment should include:
+ Title (up to 191 characters)
+ Task description (text field)
+ List of executors (can be an arbitrary number of executors)
+ Manager (by default the manager who creates the request)
+ Execution deadline (date and time)
+ Priority (1-10)
+ Task group to which it belongs
+ Accompanying files (attachments), there can be any number of them
+o When a manager creates a task, all users assigned to it
+task have the option to leave comments within the task
+ The manager has the ability to delete the comments of others
+user
+ Leave comments and delete them via AJAX
+o The manager can mark the task as complete
+o The manager can mark the task as canceled
+ Searches (filters) tasks by due date (from-to)
+ Searches (filters) tasks by priority
+ Searches (filters) tasks by executors
+ Searches (filters) tasks by title
+Executor
+The executor can see the list of tasks to which he is assigned. He has the ability to
+leave a comment and mark that he has completed his part of the task.
+Can filter and sort tasks by due date, members and
+managers.
+Administrator
+The administrator has the ability to manage the entire web application. It has the option to
+create, modify and list all:
+ User types
+ Users
+o Existing users can also change the type
+ Groups of work tasks
+ Work assignments
+ Comments
+For styling and operation of the application, you can use Bootstrap or a ready-made one
+the theme.
+It is allowed to use all front-end libraries and frameworks including jQuery,
+Angular, Vue.js, React…
 
 
