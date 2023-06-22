@@ -9,3 +9,11 @@ Executant - can see tasks he was assigned to, write comments underneath task, he
 The main goal is making tasks. And working with them.
 
 You can see the whole project text inside of "tekstzadatka" file. It is on Serbian and English(Translated by google translate).
+
+
+REGISTRATION PAGE:
+It all starts here, user can register, and his type will be executant by default.
+He will receive activation link, by clicking it, his account gets activated and then he can login.
+
+There are some basic checks while registering, i didn't go deep like making passwords checks etc.
+![image](https://github.com/mr-devD/PHPProject/assets/93098789/b809d7ef-5f39-4a11-b61d-a25b63da2618)
