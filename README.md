@@ -46,7 +46,8 @@ And there is a list of all executants assigned to that task, user can click "DON
 ![image](https://github.com/mr-devD/PHPProject/assets/93098789/605a7232-f011-49ad-a11f-9fd491a2378c)
 
 If user is ADMIN OR MANAGER he will have additional buttons: COMPLETE, CANCEL, EDIT, DELETE
-![image](https://github.com/mr-devD/PHPProject/assets/93098789/e42d7582-4081-4fa9-8e59-22e805adeacc)
+![image](https://github.com/mr-devD/PHPProject/assets/93098789/45b65466-db11-4bd3-99f4-a18fc2ae5c00)
+
 
 
 Second part is Comments part where user can leave a comment about task. and he also can delete his comments
